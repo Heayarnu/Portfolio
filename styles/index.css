@@ -1,0 +1,118 @@
+@import "./base.css";
+
+/* Main Content Styles */
+main {
+  padding: auto;
+}
+
+/* Intro Section Styles */
+#intro {
+  padding: 2rem 1rem 8rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Name Styles */
+#intro .intro-text {
+  font-family: var(--font-body);
+}
+
+.intro-text span {
+  font-family: var(--font-header);
+  color: var(--primary);
+  font-size: 4rem;
+  display: block;
+}
+
+ul.skills-list {
+  font-size: 2rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.skills-list li {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+ul.skills-list li::before {
+  content: "\2022";
+  color: var(--neutral-medium);
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+/* project section */
+
+#projects {
+  padding: 4rem 1rem;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5 rem * 1.5);
+}
+
+#projects h3 {
+  color: var(--neutral-dark);
+}
+
+#projects h4 {
+  font-size: 1rem;
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+.black-box {
+  background-color: var(--black);
+  padding: 1rem;
+  border-radius: 10px;
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#projects ul {
+  list-style-type: none;
+  margin: 0.2;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+#projects img {
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid var(--neutral-light);
+  border-top: 1px solid var(--neutral-light);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+/* Contact Styles */
+#contact {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding: 3rem 0;
+}
+
+#contact .contact-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  font-family: var(--font-header);
+}
